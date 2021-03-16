@@ -859,6 +859,10 @@ body {
   line-height: 30px;
 }
 
+.footer__item-links a:hover {
+  color: blue;
+}
+
 @media (max-width: 1300px) {
   .main {
     position: static;
