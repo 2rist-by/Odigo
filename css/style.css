@@ -274,7 +274,6 @@ body {
 
 .main {
   color: #fff;
-  position: relative;
   padding: 0px 0px 400px 0px;
 }
 
@@ -420,15 +419,11 @@ body {
 .benefits {
   background: #fff;
   padding: 93px 100px 110px 100px;
-  position: absolute;
-  top: 70%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  position: relative;
   z-index: 1;
   -webkit-box-shadow: 0px 0px 10px #f2f2f2;
           box-shadow: 0px 0px 10px #f2f2f2;
+  margin: -5% auto 0px auto;
 }
 
 .benefits__title {
@@ -888,10 +883,7 @@ body {
   }
 
   .benefits {
-    position: static;
-    -webkit-transform: translate(0%, 0%);
-        -ms-transform: translate(0%, 0%);
-            transform: translate(0%, 0%);
+    margin: 0px auto;
     /*Только если меньше контейнера*/
     padding: 60px;
   }
